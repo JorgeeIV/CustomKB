@@ -1,0 +1,6 @@
+# Edit the server KnockBack
+# kb-default 0.4
+# kb-cooldown: 10
+
+knockback: 0.4
+kb.cooldown: 10
