@@ -22,7 +22,7 @@ class KBCommand extends Command {
         $config = CustomKB::getInstance()->getConfig();
         
         $config->get("knockback", $args[0]);
-        $config->get("cooldown", $args[1]);
+        $config->get("kb.ooldown", $args[1]);
         $config->save();
         
         $sender->sendMessage(TextFormat::BOLD . TextFormat::AQUA . "KB:" . TextFormat::RESET . TextFormat::GREEN . " The Knockback has been changed");
