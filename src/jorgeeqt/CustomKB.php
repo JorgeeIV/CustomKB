@@ -2,11 +2,11 @@
 
 namespace jorgeeqt;
 
-use jorgeeqt/KBListener;
-use jorgeeqt/command/KBCommand;
-use pocketmine/Server;
-use pocketmine/plugin/PluginBase;
-use pocketmine/utils/{TextFormat, Config};
+use jorgeeqt\KBListener;
+use jorgeeqtcommand\KBCommand;
+use pocketmine\Server;
+use pocketmine\plugin\PluginBase;
+use pocketmine\utils\{TextFormat, Config};
 
 class CustomKB extends PluginBase {
   
