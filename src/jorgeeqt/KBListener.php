@@ -2,11 +2,11 @@
 
 namespace jorgeeqt;
 
-use jorgeeqt/CustomKB;
-use pocketmine/player/Player;
-use pocketmine/event/Listener;
-use pocketmine/event/entity/{EntityDamageEvent, EntityDamageByEntityEvent};
-use pocketmine/utils/Config;
+use jorgeeqt\CustomKB;
+use pocketmine\player\Player;
+use pocketmine\event\Listener;
+use pocketmine\event\entity/{EntityDamageEvent, EntityDamageByEntityEvent};
+use pocketmine\utils\Config;
 
 class KBListener implements Listener {
  
