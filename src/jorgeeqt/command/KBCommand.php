@@ -1,10 +1,10 @@
 <?php
 
-namespace jorgeeqt/command;
+namespace jorgeeqt\command;
 
-use jorgeeqt/CustomKB;
-use pocketmine/command/{CommandSender, Command};
-use pocketmine/utils/TextFormat;
+use jorgeeqt\CustomKB;
+use pocketmine\command\{CommandSender, Command};
+use pocketmine\utils\TextFormat;
 
 class KBCommand extends Command {
   
